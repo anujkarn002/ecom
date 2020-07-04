@@ -1,6 +1,5 @@
 # E-commerce Store
 Simple ecommerce react js app with firebase.
-![Firebase Deploy](https://github.com/anujkarn002/ecom/workflows/Firebase%20Deploy/badge.svg)
 
 ### [Live demo](https://e-com-web-dev.web.app//)
 
