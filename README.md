@@ -1,12 +1,8 @@
-# Salinaka | E-commerce react app
+# E-commerce Store
 Simple ecommerce react js app with firebase.
-![Firebase Deploy](https://github.com/jgudo/ecommerce-react/workflows/Firebase%20Deploy/badge.svg)
+![Firebase Deploy](https://github.com/anujkarn002/ecom/workflows/Firebase%20Deploy/badge.svg)
 
-### [Live demo](https://salinaka-ecommerce.web.app/)
-
-![Salinaka screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny1.png)
-![Salinaka screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny2.png)
-![Salinaka screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny3.png)
+### [Live demo](https://e-com-web-dev.web.app//)
 
 ## Run Locally
 ### 1. Install Dependencies
@@ -62,4 +58,5 @@ $ npm run build
 * Firebase authentication
 * Firebase auth provider authentication
 * Account creation and edit
+* Categories CRUD operations
 
