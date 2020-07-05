@@ -4,6 +4,7 @@ import { selectFilter } from 'selectors/selector';
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 
+import ProductCarousel from 'components/ui/ProductCarousel';
 import ProductList from 'components/product/ProductList';
 import ProductItem from 'components/product/ProductItem';
 import CategoryList from 'components/category/CategoryList';
@@ -89,6 +90,22 @@ const Home = (props) => {
               ))}
               </div>
         </CategoryList>
+      </Boundary>
+      <br />
+      <h1 className="pt-2">On Sale</h1>
+      <Boundary>
+        <ProductCarousel itemsLength={store.productsLength}>
+          {store.products.slice(0, store.productsLength-1).map((product) => (
+            <ProductItem
+            foundOnBasket={foundOnBasket}
+            dispatch={dispatch}
+            key={product.id}
+            onOpenModal={onOpenModal}
+            displaySelected={displaySelected}
+            product={product}
+        />
+          ))}
+        </ProductCarousel>
       </Boundary>
       <br />
       <h1 className=" pt-2">Featured</h1>
